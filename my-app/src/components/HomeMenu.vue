@@ -31,10 +31,13 @@ export default {
   }
 
   .homeManu > h1{
-    margin:  0 auto;
-    border: 1px solid black;
+    margin: auto;
     text-align: center;
     flex: 100%;
+  }
+
+  .homeManu > img{
+    margin: auto;
   }
 
   
