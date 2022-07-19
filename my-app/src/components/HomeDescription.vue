@@ -1,10 +1,10 @@
 <template>
     <div class = "homeDescription">
-        <h1>Prophet: description</h1>
-        <h1>Guidance: description</h1>
-        <h1>Academic: description</h1>
-        <h1>Trust: description</h1>
-        <h1>Kaching: description</h1>
+        <h1 id="Prophet">Prophet: description</h1>
+        <h1 id="Guidance">Guidance: description</h1>
+        <h1 id="Academic">Academic: description</h1>
+        <h1 id="Trust">Trust: description</h1>
+        <h1 id="Kaching">Kaching: description</h1>
     </div>    
 </template>
 
