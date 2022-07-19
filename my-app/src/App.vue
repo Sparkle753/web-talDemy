@@ -5,15 +5,16 @@
             <img :src = logo :width=" sizeImage" :height="sizeImage">
             <p class = "homeManu-logo-text">talDemy</p>   
           </div> 
-          
-          <router-link to="/home" class = "homeManu-item">Prophet</router-link> 
-          <router-link to="/home" class = "homeManu-item">Guidance</router-link> 
-          <router-link to="/home" class = "homeManu-item">Academic</router-link>
-          <router-link to="/home" class = "homeManu-item">Trust</router-link>
-          <router-link to="/home" class = "homeManu-item">Kaching</router-link>
+          <router-link to="/home" onclick="javascript:window.location='#Prophet';" class = "homeManu-item">Prophet</router-link>
+          <router-link to="/home" onclick="javascript:window.location='#Guidance';" class = "homeManu-item">Guidance</router-link> 
+          <router-link to="/home" onclick="javascript:window.location='#Academic';" class = "homeManu-item">Academic</router-link>
+          <router-link to="/home" onclick="javascript:window.location='#Trust';" class = "homeManu-item">Trust</router-link>
+          <router-link to="/home" onclick="javascript:window.location='#Kaching';" class = "homeManu-item">Kaching</router-link>
           <router-link to="/who-are-you" class = "homeManu-item">Login/Signup</router-link>        
+
     </div>  
-    <router-view/>
+      <router-view/>
+
   </nav>
   
 </template>
@@ -21,6 +22,13 @@
 <script>
 
 export default {
+  methods: {
+    goto(refName) {
+        var element = this.$refs[refName];
+        var top = element.offsetTop;
+        window.scrollTo(0, top);
+    }
+  },
   name: 'App',
   data(){
       return {
@@ -28,8 +36,11 @@ export default {
         sizeImage : 50
       } 
     }
-
+  
 }
+
+
+
 </script>
 
 
@@ -64,8 +75,5 @@ export default {
     /*border: 1px solid black;*/
     
  }
-
- 
-
 
 </style>
