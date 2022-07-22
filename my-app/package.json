@@ -10,7 +10,11 @@
   "dependencies": {
     "core-js": "^3.8.3",
     "vue": "^3.2.13",
-    "vue-router": "^4.0.3"
+    "vue-google-signin-button": "^1.0.4",
+    "vue-google-signin-button-directive": "^1.0.3",
+    "vue-router": "^4.0.3",
+    "vue-scroll-fixed-navbar": "^0.2.2",
+    "vue3-google-login": "^2.0.11"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

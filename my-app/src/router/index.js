@@ -5,6 +5,8 @@ import LoginRecruiter from '../views/LoginRecruite.vue'
 import LoginStudent from '../views/LoginStudent.vue'
 import UserID from "../views/UserID.vue"
 import ProphetUserID from "../views/ProphetUserID.vue"
+
+
 const routes = [
   {
     path: '/home',
