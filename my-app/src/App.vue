@@ -32,7 +32,7 @@ export default {
   data(){
       return {
         logo: require('@/assets/logo/Wordpress Transparent.png'),
-        sizeImage : 100,       
+        sizeImage : 40,       
       } 
   },
 
@@ -47,8 +47,7 @@ export default {
   *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    
+  
   }
   .homeManu-bar{   
     /*border: 1px solid black;*/
@@ -65,21 +64,21 @@ export default {
 
   .homeManu-logo{
     display: flex;
-    margin: 1vh auto 2vh 5vw;
+    margin: 1vh auto 1.5vh 5vw;
   }
    .homeManu-logo > p{
     
     padding-left: 5px;
     margin-top: 1.5vh;
     font-family: Helvetica;
-    font-size: 60px;
+    font-size: 20px;
     font-weight: bold;
   }
   
   .homeManu-item{
     font-family: arial;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 18px;
     margin: 0 auto;
     text-decoration: none;
     text-align: center;
