@@ -1,3 +1,3 @@
 # web-talDemy
 ## Demo Wab
-[GitHub Pages](https://taldemy.com/home).
+[taldemy wab](https://taldemy.com/home).
